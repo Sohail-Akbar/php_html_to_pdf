@@ -1,0 +1,19 @@
+{
+    "fontawesome": {
+        "normal": "fontawesome_normal_7ea195556637d817f455524c7885b526"
+    },
+    "gotham rounded medium": {
+        "normal": "gotham_rounded_medium_normal_4adf6832e565904e8529b2fff668d1cc"
+    },
+    "outfit": {
+        "100": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_100_b639cec40249fc1fd0c037132ee1a987",
+        "200": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_200_c6eb35b7f8f382373670f59aa842b1dc",
+        "300": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_300_47ba8fe0bbab47a21920dc0296d5eb2a",
+        "normal": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_normal_b427b5567815855f2c1aedcbca5c426a",
+        "500": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_500_3f90519d2f87fc22d57704517ab896a0",
+        "600": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_600_94b9c4eadc31b24bcee5f116f62bfe31",
+        "bold": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_bold_bacd5e3d0f06fee90429a0a4c0bbcab7",
+        "800": "D:\\xampp\\htdocs\\projects\\test\\html2pdf\\html_to_pdf\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/outfit_800_13a585c853aea7196b028a175e94509b",
+        "900": "outfit_900_4e949b6333ebae7204914114b5bfd1a6"
+    }
+}

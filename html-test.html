@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Summary Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        @page {
+            margin: 10px 30px !important;
+            size: A4;
+        }
+
+        html,
+        body {
+            height: 100%;
+            /* ensure full height */
+            margin: 0;
+            padding: 0;
+            /* font-family: sans-serif; */
+            font-family: "Outfit", sans-serif;
+        }
+
+        .main-container .header {
+            width: 100%;
+        }
+
+        .main-container .header .title {
+            font-size: 60px;
+            font-weight: 500;
+            display: inline-block;
+            vertical-align: middle;
+            width: 75%;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .main-container .header img {
+            width: 20%;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: right;
+            /* margin-top: 10px; */
+        }
+
+        .margin-top-0 {
+            margin-top: 0 !important;
+        }
+
+        .line {
+            background: #333;
+            height: 2px;
+            width: 100%;
+        }
+
+        .gradiant_color {
+            background: url('D:/xampp/htdocs/projects/test/html2pdf/html_to_pdf/Screenshot_2025_09_29-1.png') repeat-x;
+            /* horizontal gradient */
+            height: 20px;
+            width: 100%;
+        }
+
+        .headline img {
+            width: 100%;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        .main-container .text {
+            font-size: 14px;
+        }
+
+        .main-container .pass-button {
+            background: #ffa800;
+            color: white;
+            font-size: 25px;
+            font-weight: 600;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            text-align: center;
+            border: none;
+            height: 50px;
+            margin-top: 40px;
+        }
+
+        .main-container .line {
+            background: #333;
+            height: 2px;
+            width: 100%;
+        }
+
+        .main-container .details {
+            margin-top: 20px;
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        .col-4 {
+            width: 25%;
+            /* 100 ÷ 4 = 25% */
+            font-size: 16px;
+            vertical-align: top;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h3 class="title">Credit Check</h3>
+            <img src="http://192.168.100.6/projects/test/html2pdf/html_to_pdf/1595421813logo_final_wht.png">
+        </div>
+        <div class="user-info">
+            <h3 style="margin:0px;line-height: 1px;"><b>Dr Saba Aslam</b></h3>
+            <span class="text">95A Queens Road, London</span>
+            <br>
+            <span class="text">Reference LIB-REF-022373</span>
+            <br>
+            <span class="text">Requested By Cribs Estates Limited</span>
+        </div>
+        <button class="pass-button">Pass with condition</button>
+        <div class="line" style="margin-top:15px;"></div>
+        <div class="details">
+            <table width="100%" style="border-collapse: collapse;">
+                <tr>
+                    <td width="50%" style="padding:5px; vertical-align: top;">
+                        <span class="text">Date of Birth 19-04-1993</span><br>
+                        <span class="text">Age Flag Applicant's age is valid (no warning)</span><br>
+                        <span class="text">Nationality --</span>
+                    </td>
+                    <td width="50%" style="padding:5px; vertical-align: top;">
+                        <span class="text">Date of Birth Matched Yes</span><br>
+                        <span class="text">Maiden Name N/A</span><br>
+                        <span class="text">Undeclared Aliases 0</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="headline" style="margin-top:20px;">
+            <img src="http://localhost/projects/test/html2pdf/html_to_pdf/Screenshot_2025_09_29-1.png">
+        </div>
+        <div class="line" style="margin-top:25px;"></div>
+        <table class="row"
+            style="margin-top: 30px; background: #893185 !important; padding-bottom:10px; border-radius: 10px !important;">
+            <tr>
+                <td class="col-4 text-white">
+                    <span style="font-size: 25px;"><b>N/A</b></span>
+                    <br>
+                    <div style="font-size: 12px;">Active County</div>
+                    <div style="font-size: 12px;">Court Judgments</div>
+                </td>
+                <td class="col-4 text-white">
+                    <span style="font-size: 25px;"><b>N/A</b></span>
+                    <br>
+                    <div style="font-size: 12px;">Satisfied County</div>
+                    <div style="font-size: 12px;">Court Judgments</div>
+                </td>
+                <td class="col-4 text-white">
+                    <span style="font-size: 25px;"><b>N/A</b></span>
+                    <br>
+                    <div style="font-size: 12px;">Discharged BAIs in</div>
+                    <div style="font-size: 12px;">the last 6 years</div>
+                </td>
+                <td class="col-4 text-white">
+                    <span style="font-size: 25px;"><b>N/A</b></span>
+                    <br>
+                    <div style="font-size: 12px;">Currently subject</div>
+                    <div style="font-size: 12px;">to a BAI</div>
+                </td>
+            </tr>
+        </table>
+        <div class="details">
+            <table width="100%" style="border-collapse: collapse;">
+                <tr>
+                    <td width="50%" style="padding:5px; vertical-align: top;">
+                        <span class="text">Value of Active Judgments £0.00</span><br>
+                        <span class="text">Age Flag Applicant's age is valid (no warning)</span><br>
+                    </td>
+                    <td width="50%" style="padding:5px; vertical-align: top;">
+                        <span class="text"></span><br>
+                        <span class="text">Notice of Dispute 0</span><br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="line" style="margin-top:25px;"></div>
+        <div class="address-confirmation">
+            <h3><b>Address Confirmation</b></h3>
+        </div>
+    </div>
+</body>
+
+</html>
