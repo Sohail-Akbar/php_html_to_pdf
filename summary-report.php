@@ -106,8 +106,8 @@ $html = <<<HTML
             width: 50%;
         }
 
-        .main-container .left-content .text,
-        .main-container .right-content .text {
+        .main-container  .text,
+        .main-container .text {
             font-size: 14px;
             opacity: 0.8;
             margin-bottom: 20px;
@@ -142,96 +142,101 @@ $html = <<<HTML
                 <h3 style="margin-left:40px;"><b>Mr Ricky John Turpin</b></h3>
                 <div class="report-info">
                     <button class="pass-btn">Pass</button>
-                    <div class="row" style="margin-top:30px;">
-                        <div class="left-content col-4">
-                            <span class="text"><b>Reference</b></span>
-                            <br>
-                            <span class="text"><b>Requested by</b></span>
-                            <br>
-                            <span class="text"><b>Report Type</b></span>
-                            <br>
-                            <span class="text"><b>Report Produced</b></span>
-                        </div>
-                        <div class="right-content col-8">
-                            <span class="text">LIB-REF-022176</span>
-                            <br>
-                            <span class="text">Kingsdene Limited</span>
-                            <br>
-                            <span class="text">Superior</span>
-                            <br>
-                            <span class="text">19-09-2025 16:43:06</span>
-                        </div>
-                    </div>
+                    <table style="width:100%; border-collapse: collapse; margin-top:30px;">
+                        <tr>
+                            <td style="width:40%; vertical-align: top; display: unset;">
+                                <span class="text"><b>Reference</b></span>
+                            </td>
+                            <td style="width:60%; vertical-align: top;">
+                                <span class="text">LIB-REF-022176</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Requested by</b></span></td>
+                            <td><span class="text">Kingsdene Limited</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Report Type</b></span></td>
+                            <td><span class="text">Superior</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Report Produced</b></span></td>
+                            <td><span class="text">19-09-2025 16:43:06</span></td>
+                        </tr>
+                    </table>
+
                     <div class="line" style="margin-top:20px;margin-bottom:20px;"></div>
-                    <h3 style="margin-bottom:0px" class="text"><b>Applicant</b></h3>
-                    <div class="row">
-                        <div class="left-content col-4">
-                            <span class="text"><b>Applicant Name</b></span>
-                            <br>
-                            <span class="text"><b>Previous Name</b></span>
-                            <br>
-                            <span class="text"><b>Date of Birth</b></span>
-                            <br>
-                            <span class="text"><b>Current Address</b></span>
-                            <br>
-                            <span class="text"><b>Nationality</b></span>
-                            <br>
-                            <span class="text"><b>Marital Status</b></span>
-                            <br>
-                            <span class="text"><b>Dependents</b></span>
-                            <br>
-                            <span class="text"><b>Pets</b></span>
-                            <br>
-                            <span class="text"><b>Smoker</b></span>
-                        </div>
-                        <div class="right-content col-8">
-                            <span class="text">Mr Ricky John Turpin</span>
-                            <br>
-                            <span class="text">N/A</span>
-                            <br>
-                            <span class="text">25/10/1971</span>
-                            <br>
-                            <span class="text">44 Partisan Green Warrington WA5 7AA</span>
-                            <br>
-                            <span class="text">British</span>
-                            <br>
-                            <span class="text">Married</span>
-                            <br>
-                            <span class="text">None</span>
-                            <br>
-                            <span class="text">No</span>
-                            <br>
-                            <span class="text">No</span>
-                        </div>
-                    </div>
+                    <h3 style="margin-bottom:0px; font-size:20px;" class="text"><b>Applicant</b></h3>
+                    <table style="width:100%; border-collapse: collapse;">
+                        <tr>
+                            <td style="width:40%; vertical-align: top; display: unset;">
+                                <span class="text"><b>Applicant Name</b></span>
+                            </td>
+                            <td style="width:60%; vertical-align: top;">
+                                <span class="text">Mr Ricky John Turpin</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Previous Name</b></span></td>
+                            <td><span class="text">N/A</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Date of Birth</b></span></td>
+                            <td><span class="text">25/10/1971</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Current Address</b></span></td>
+                            <td><span class="text">44 Partisan Green Warrington WA5 7AA</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Nationality</b></span></td>
+                            <td><span class="text">British</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Marital Status</b></span></td>
+                            <td><span class="text">Married</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Dependents</b></span></td>
+                            <td><span class="text">None</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Pets</b></span></td>
+                            <td><span class="text">No</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Smoker</b></span></td>
+                            <td><span class="text">No</span></td>
+                        </tr>
+                    </table>
                     <div class="line" style="margin-top:20px;margin-bottom:20px;"></div>
-                    <h3 style="margin-bottom:0px" class="text"><b>Residency</b></h3>
-                    <div class="row">
-                        <div class="left-content col-4">
-                            <span class="text"><b>Residential Status</b></span>
-                            <br>
-                            <span class="text"><b>Move In Date</b></span>
-                            <br>
-                            <span class="text"><b>Date of Birth</b></span>
-                            <br>
-                            <span class="text"><b>Move Out Date</b></span>
-                        </div>
-                        <div class="right-content col-8">
-                            <span class="text">Home Owner</span>
-                            <br>
-                            <span class="text">November 2015</span>
-                            <br>
-                            <span class="text">N/A</span>
-                        </div>
-                    </div>
+                    <h3 style="margin-bottom:0px; font-size:20px;" class="text"><b>Residency</b></h3>
+                    <table style="width:100%; border-collapse: collapse;">
+                        <tr>
+                            <td style="width:40%; vertical-align: top; display: unset;">
+                                <span class="text"><b>Residential Status</b></span>
+                            </td>
+                            <td style="width:60%; vertical-align: top;">
+                                <span class="text">Home Owner</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Move In Date</b></span></td>
+                            <td><span class="text">November 2015</span></td>
+                        </tr>
+                        <tr>
+                            <td style="display: unset;"><span class="text"><b>Move Out Date</b></span></td>
+                            <td><span class="text">N/A</span></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
             <div class="col-4 right-sidebar content-center" style="background: #8a3186; color: #fff;">
                 <div style="position:relative; height:1080px; width:100%;">
                     <!-- Top -->
                     <div style="position:absolute; top:0; left:0; right:0; padding:15px;">
-                        <img src="http://localhost/projects/test/html2pdf/html_to_pdf/company_logo_white.png" style="margin-top:20px;"
-                            class="logo">
+                        <img src="http://localhost/projects/test/html2pdf/html_to_pdf/company_logo_white.png"
+                            style="margin-top:20px;" class="logo">
                     </div>
                     <!-- Center -->
                     <div
@@ -257,133 +262,147 @@ $html = <<<HTML
                 </div>
             </div>
         </div>
-<!-- second page -->
-   <div class="row">
+        <!-- second page -->
+        <div class="row">
             <div class="col-8">
-                 <div style="position:relative; width:100%;">
-                <div class="report-info" style="margin-top:30px;">
-                    <h3 style="margin-bottom:0px" class="text"><b>Credit History</b></h3>
-                    <div class="row">
-                        <div class="left-content col-4">
-                            <span class="text"><b>Reference</b></span>
-                            <br>
-                            <span class="text"><b>Requested by</b></span>
-                            <br>
-                            <span class="text"><b>Report Type</b></span>
-                            <br>
-                            <span class="text"><b>Report Produced</b></span>
-                        </div>
-                        <div class="right-content col-8">
-                            <span class="text">LIB-REF-022176</span>
-                            <br>
-                            <span class="text">Kingsdene Limited</span>
-                            <br>
-                            <span class="text">Superior</span>
-                            <br>
-                            <span class="text">19-09-2025 16:43:06</span>
-                        </div>
+                <div style="position:relative; width:100%;">
+                    <div class="report-info" style="margin-top:30px;">
+                        <h3 style="margin-bottom:0px; font-size:20px;" class="text"><b>Credit History</b></h3>
+                        <table style="width:100%; border-collapse: collapse;">
+                            <tr>
+                                <td style="width:40%; vertical-align: top; display: unset;">
+                                    <span class="text"><b>Reference</b></span>
+                                </td>
+                                <td style="width:60%; vertical-align: top;">
+                                    <span class="text">LIB-REF-022176</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Requested by</b></span></td>
+                                <td><span class="text">Kingsdene Limited</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Report Type</b></span></td>
+                                <td><span class="text">Superior</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Report Produced</b></span></td>
+                                <td><span class="text">19-09-2025 16:43:06</span></td>
+                            </tr>
+                        </table>
+                        <div class="line" style="margin-top:20px;margin-bottom:20px;"></div>
+                        <h3 style="margin-bottom:0px; font-size:20px;" class="text"><b>Applicant</b></h3>
+                        <table style="width:100%; border-collapse: collapse;">
+                            <tr>
+                                <td style="width:40%; vertical-align: top; display: unset;">
+                                    <span class="text"><b>Applicant Name</b></span>
+                                </td>
+                                <td style="width:60%; vertical-align: top;">
+                                    <span class="text">Mr Ricky John Turpin</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Previous Name</b></span></td>
+                                <td><span class="text">N/A</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Date of Birth</b></span></td>
+                                <td><span class="text">25/10/1971</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Current Address</b></span></td>
+                                <td><span class="text">44 Partisan Green Warrington WA5 7AA</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Nationality</b></span></td>
+                                <td><span class="text">British</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Marital Status</b></span></td>
+                                <td><span class="text">Married</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Dependents</b></span></td>
+                                <td><span class="text">None</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Pets</b></span></td>
+                                <td><span class="text">No</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Smoker</b></span></td>
+                                <td><span class="text">No</span></td>
+                            </tr>
+                        </table>
+                        <div class="line" style="margin-top:20px;margin-bottom:20px;"></div>
+                        <h3 style="margin-bottom:0px;font-size:20px;" class="text"><b>Residency</b></h3>
+                        <table style="width:100%; border-collapse: collapse;">
+                            <tr>
+                                <td style="width:40%; vertical-align: top; display: unset;">
+                                    <span class="text"><b>Residential Status</b></span>
+                                </td>
+                                <td style="width:60%; vertical-align: top;">
+                                    <span class="text">Home Owner</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Move In Date</b></span></td>
+                                <td><span class="text">November 2015</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Move Out Date</b></span></td>
+                                <td><span class="text">N/A</span></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="line" style="margin-top:20px;margin-bottom:20px;"></div>
-                    <h3 style="margin-bottom:0px" class="text"><b>Applicant</b></h3>
-                    <div class="row">
-                        <div class="left-content col-4">
-                            <span class="text"><b>Applicant Name</b></span>
-                            <br>
-                            <span class="text"><b>Previous Name</b></span>
-                            <br>
-                            <span class="text"><b>Date of Birth</b></span>
-                            <br>
-                            <span class="text"><b>Current Address</b></span>
-                            <br>
-                            <span class="text"><b>Nationality</b></span>
-                            <br>
-                            <span class="text"><b>Marital Status</b></span>
-                            <br>
-                            <span class="text"><b>Dependents</b></span>
-                            <br>
-                            <span class="text"><b>Pets</b></span>
-                            <br>
-                            <span class="text"><b>Smoker</b></span>
-                        </div>
-                        <div class="right-content col-8">
-                            <span class="text">Mr Ricky John Turpin</span>
-                            <br>
-                            <span class="text">N/A</span>
-                            <br>
-                            <span class="text">25/10/1971</span>
-                            <br>
-                            <span class="text">44 Partisan Green Warrington WA5 7AA</span>
-                            <br>
-                            <span class="text">British</span>
-                            <br>
-                            <span class="text">Married</span>
-                            <br>
-                            <span class="text">None</span>
-                            <br>
-                            <span class="text">No</span>
-                            <br>
-                            <span class="text">No</span>
-                        </div>
-                    </div>
-                    <div class="line" style="margin-top:20px;margin-bottom:20px;"></div>
-                    <h3 style="margin-bottom:0px" class="text"><b>Residency</b></h3>
-                    <div class="row">
-                        <div class="left-content col-4">
-                            <span class="text"><b>Residential Status</b></span>
-                            <br>
-                            <span class="text"><b>Move In Date</b></span>
-                            <br>
-                            <span class="text"><b>Date of Birth</b></span>
-                            <br>
-                            <span class="text"><b>Move Out Date</b></span>
-                        </div>
-                        <div class="right-content col-8">
-                            <span class="text">Home Owner</span>
-                            <br>
-                            <span class="text">November 2015</span>
-                            <br>
-                            <span class="text">N/A</span>
-                        </div>
-                    </div>
-                </div>
-                                    <!-- Bottom -->
-                    <div style="position:absolute; bottom:0; left:25px; right:30px; padding:15px; text-align: justify !important;">
+                    <!-- Bottom -->
+                    <div
+                        style="position:absolute; bottom:0; left:25px; right:30px; padding:15px; text-align: justify !important;">
                         <small class="footer-content" style="font-size:9px; text-align: justify !important;">
                             This report has been provided by Quodex
-                            The outcome in this report is based on the information available to Lettings in a box™ at the
+                            The outcome in this report is based on the information available to Lettings in a box™ at
+                            the
                             time. An applicant's circumstances and credit worthiness can change from time to time. In
-                            accordance with statutory requirements the Agent or Landlord must view and retain an original
+                            accordance with statutory requirements the Agent or Landlord must view and retain an
+                            original
                             copy of the applicants Right to Rent documents prior to completion of any tenancy agreement.
-                            This report should not be used as the sole reason for making a decision to let a property to a
-                            prospective tenant. Lettings in a box™ will not be liable for any inaccuracy or incompleteness of
-                            any information appearing in this report. This reference is based on data obtained at a specific
+                            This report should not be used as the sole reason for making a decision to let a property to
+                            a
+                            prospective tenant. Lettings in a box™ will not be liable for any inaccuracy or
+                            incompleteness of
+                            any information appearing in this report. This reference is based on data obtained at a
+                            specific
                             point of time and as such will be at its most reliable on the day it is produced. The
                             circumstances and performance of each tenant or guarantor may change from day to day.
-                            Lettings in a box™ shall not be liable for any loss or damage suffered or incurred by any person
-                            (whether directly or indirectly) as a result of or in connection with a tenant or guarantor failing
+                            Lettings in a box™ shall not be liable for any loss or damage suffered or incurred by any
+                            person
+                            (whether directly or indirectly) as a result of or in connection with a tenant or guarantor
+                            failing
                             to comply with any terms of a tenancy agreement. You acknowledge that letting a property
                             carries commercial risk. We recommend that you or the landlord purchase appropriate
                             insurance to protect against rent arrears, damage to the property and legal expenses
-                            associated with the eviction of a tenant. This report has been provided subject to our terms and
+                            associated with the eviction of a tenant. This report has been provided subject to our terms
+                            and
                             conditions.
-                            </small>
+                        </small>
                     </div>
-                    </div>
+                </div>
 
             </div>
             <div class="col-4 right-sidebar content-center" style="background: #8a3186; color: #fff;">
                 <div style="position:relative; height:1080px; width:100%;">
                     <!-- Top -->
                     <div style="position:absolute; top:0; left:0; right:0; padding:15px;">
-                        <img src="http://localhost/projects/test/html2pdf/html_to_pdf/company_logo_white.png" style="margin-top:20px;"
-                            class="logo">
+                        <img src="http://localhost/projects/test/html2pdf/html_to_pdf/company_logo_white.png"
+                            style="margin-top:20px;" class="logo">
                     </div>
                     <!-- Center -->
                     <div
                         style="position:absolute; top:50%; left:0; right:0; transform:translateY(-50%); padding:15px; text-align:center;">
                     </div>
                     <!-- Bottom -->
-                    <div style="position:absolute; bottom:40px; left:0; right:0; padding:15px; text-align: justify !important;">
+                    <div
+                        style="position:absolute; bottom:40px; left:0; right:0; padding:15px; text-align: justify !important;">
                         <small class="footer-content" style="font-size:9px; text-align: justify !important;">
                             This report has been provided by Quodex
                             Limited trading as Lettings in a box™.
@@ -404,7 +423,6 @@ $html = <<<HTML
                 </div>
             </div>
         </div>
-
     </div>
 </body>
 

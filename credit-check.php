@@ -123,10 +123,12 @@ $html = <<<HTML
             padding: 10px;
             text-align: center;
         }
-        .main-container .headline{
+
+        .main-container .headline {
             position: relative;
         }
-        .main-container .headline .item{
+
+        .main-container .headline .item {
             position: absolute;
             right: 15%;
             transform: translateY(-15%);
@@ -154,20 +156,24 @@ $html = <<<HTML
         <button class="pass-button">Pass with condition</button>
         <div class="line" style="margin-top:15px;"></div>
         <div class="details">
-            <table width="100%" style="border-collapse: collapse;">
-                <tr>
-                    <td width="50%" style="padding:5px; vertical-align: top;">
-                        <span class="text">Date of Birth 19-04-1993</span><br>
-                        <span class="text">Age Flag Applicant's age is valid (no warning)</span><br>
-                        <span class="text">Nationality --</span>
-                    </td>
-                    <td width="50%" style="padding:5px; vertical-align: top;">
-                        <span class="text">Date of Birth Matched Yes</span><br>
-                        <span class="text">Maiden Name N/A</span><br>
-                        <span class="text">Undeclared Aliases 0</span>
-                    </td>
-                </tr>
-            </table>
+            <table style="width:100%; border-collapse: collapse;">
+                            <tr>
+                                <td style="width:50%; vertical-align: top; display: unset;">
+                                    <span class="text"><b>Date of Birth:</b> 19-04-1993</span>
+                                </td>
+                                <td style="width:50%; vertical-align: top;">
+                                    <span class="text"><b>Date of Birth Matched:</b> Yes</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Age Flag:</b> Applicant's age is valid (no warning)</span></td>
+                                <td><span class="text"><b>Maiden Name:</b> N/A</span></td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text"><b>Nationality:</b> --</span></td>
+                                <td><span class="text"><b>Undeclared Aliases:</b> 0</span></td>
+                            </tr>
+                        </table>
         </div>
         <div class="headline" style="margin-top:20px;">
             <img src="http://localhost/projects/test/html2pdf/html_to_pdf/Screenshot_2025_09_29-1.jpg">
@@ -204,18 +210,20 @@ $html = <<<HTML
             </tr>
         </table>
         <div class="details">
-            <table width="100%" style="border-collapse: collapse;">
-                <tr>
-                    <td width="50%" style="padding:5px; vertical-align: top;">
-                        <span class="text">Value of Active Judgments £0.00</span><br>
-                        <span class="text">Age Flag Applicant's age is valid (no warning)</span><br>
-                    </td>
-                    <td width="50%" style="padding:5px; vertical-align: top;">
-                        <span class="text"></span><br>
-                        <span class="text">Notice of Dispute 0</span><br>
-                    </td>
-                </tr>
-            </table>
+                        <table style="width:100%; border-collapse: collapse;">
+                            <tr>
+                                <td style="width:50%; vertical-align: top; display: unset;">
+                                    <span class="text">Value of Active Judgments £0.00</span>
+                                </td>
+                                <td style="width:50%; vertical-align: top;">
+                                    <span class="text"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: unset;"><span class="text">Age Flag Applicant's age is valid (no warning)</span></td>
+                                <td><span class="text">Notice of Dispute 0</span></td>
+                            </tr>
+                        </table>
         </div>
         <div class="line" style="margin-top:25px;"></div>
         <div class="address-confirmation">
@@ -250,23 +258,24 @@ $html = <<<HTML
         </footer>
         <br>
         <span></span>
-         <div class="line" style="margin-top:35px;"></div>
-         <div style="height:300px;">
+        <div class="line" style="margin-top:35px;"></div>
+        <div style="height:300px;">
             <h3><b>County Court Judgments</b></h3>
             <span>N/A</span>
-         </div>
-         <div class="line"></div>
-         <div>
+        </div>
+        <div class="line"></div>
+        <div>
             <h3 style="margin-bottom:0px;"><b>Reported Aliases</b></h3>
             <small style="font-size:10px;">N/A</small>
-         </div>
+        </div>
         <div class="line" style="margin-top:30px;"></div>
         <div>
             <h3 style="margin-bottom:10px;"><b>Report Comments</b></h3>
-            <small style="font-size:10px;">Credit check and AML check only. The applicant has a common name and has a number of fuzzy matches on Adverse Media, Warnings, PEPs and Fitness probity. We
-recommend the agent reviews the report under Adverse Media.</small>
+            <small style="font-size:10px;">Credit check and AML check only. The applicant has a common name and has a
+                number of fuzzy matches on Adverse Media, Warnings, PEPs and Fitness probity. We
+                recommend the agent reviews the report under Adverse Media.</small>
         </div>
-         <div class="line" style="margin-top:20px;"></div>
+        <div class="line" style="margin-top:20px;"></div>
         <table width="100%" style="border-collapse: collapse; margin-top:30px;">
             <tr>
                 <td style="width:48%; text-align:left; vertical-align: top;">
@@ -277,19 +286,30 @@ recommend the agent reviews the report under Adverse Media.</small>
                 </td>
             </tr>
         </table>
-        <p style="font-size:11px;">The outcome in this report is based on the information available to Lettingsinabox™ at the time. An applicant’s circumstances and credit worthiness can change from
-time to time. In accordance with statutory requirements the Agent or Landlord must view and retain an original copy of the applicants Right to Rent documents prior to
-completion of any tenancy agreement. This report should not be used as the sole reason for making a decision to let a property to a prospective tenant. Lettingsinabox™
-will not be liable for any inaccuracy or incompleteness of any information appearing in this report. This reference is based on data obtained at a specific point of time
-and as such will be at its most reliable on the day it is produced. The circumstances and performance of each tenant or guarantor may change from day to day.
-Lettingsinabox™ shall not be liable for any loss or damage suffered or incurred by any person (whether directly or indirectly) as a result of or in connection with a tenant
-or guarantor failing to comply with any terms of a tenancy agreement. You acknowledge that letting a property carries commercial risk. We recommend that you or the
-landlord purchase appropriate insurance to protect against rent arrears, damage to the property and legal expenses associated with the eviction of a tenant. This report
-has been provided subject to our terms and conditions.
-This report has been provided by Quodex Limited trading as Lettingsinabox™. Registered in England and Wales. Company number 11434933. Registered office address
-Autumn Park Business Centre, Dysart Road, Grantham, Lincolnshire, NG31 7EU. Lettingsinabox™ is also the trading style of a trading style of Infinity Risks Limited. Infinity
-Risks Limited is Authorised and Regulated by the Financial Conduct Authority (FRN 933869). Infinity Risks Limited. Registered in England No. 12812415. Registered office
-address 71-75 Shelton Street, Covent Garden, London WC2H 9JQ</p>
+        <p style="font-size:11px;">The outcome in this report is based on the information available to Lettingsinabox™
+            at the time. An applicant’s circumstances and credit worthiness can change from
+            time to time. In accordance with statutory requirements the Agent or Landlord must view and retain an
+            original copy of the applicants Right to Rent documents prior to
+            completion of any tenancy agreement. This report should not be used as the sole reason for making a decision
+            to let a property to a prospective tenant. Lettingsinabox™
+            will not be liable for any inaccuracy or incompleteness of any information appearing in this report. This
+            reference is based on data obtained at a specific point of time
+            and as such will be at its most reliable on the day it is produced. The circumstances and performance of
+            each tenant or guarantor may change from day to day.
+            Lettingsinabox™ shall not be liable for any loss or damage suffered or incurred by any person (whether
+            directly or indirectly) as a result of or in connection with a tenant
+            or guarantor failing to comply with any terms of a tenancy agreement. You acknowledge that letting a
+            property carries commercial risk. We recommend that you or the
+            landlord purchase appropriate insurance to protect against rent arrears, damage to the property and legal
+            expenses associated with the eviction of a tenant. This report
+            has been provided subject to our terms and conditions.
+            This report has been provided by Quodex Limited trading as Lettingsinabox™. Registered in England and Wales.
+            Company number 11434933. Registered office address
+            Autumn Park Business Centre, Dysart Road, Grantham, Lincolnshire, NG31 7EU. Lettingsinabox™ is also the
+            trading style of a trading style of Infinity Risks Limited. Infinity
+            Risks Limited is Authorised and Regulated by the Financial Conduct Authority (FRN 933869). Infinity Risks
+            Limited. Registered in England No. 12812415. Registered office
+            address 71-75 Shelton Street, Covent Garden, London WC2H 9JQ</p>
     </div>
 </body>
 
